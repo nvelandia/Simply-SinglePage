@@ -4,8 +4,15 @@ h1 {
 }
 
 .contenedor2 {
+  display: flex;
   background-color: rgb(82, 246, 17);
-  width: 100%;
   height: 110px;
-  gap: 200px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
 }
