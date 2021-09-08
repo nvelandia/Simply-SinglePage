@@ -60,26 +60,29 @@ nav ul {
 h2 {
   text-align: center;
   padding: auto;
+  font-size: x-large;
+}
+
+hr {
+  width: 30%;
+  border: 1px solid #20acd6;
 }
 
 .texto {
   text-align: center;
-  -webkit-padding-start: 5cm;
-          padding-inline-start: 5cm;
-  -webkit-padding-end: 5cm;
-          padding-inline-end: 5cm;
   background-color: #f5f5f5;
+  font-size: large;
 }
 
 iframe {
   text-align: center;
-  margin: 50px 100px 50px 100px;
-  padding-left: 5cm;
-  padding-right: 5cm;
+  margin-top: 30px;
 }
 
 .todoelcontenido {
   background-color: #f5f5f5;
+  margin: 20px 0px;
+  padding: 50px 22%;
 }
 
 .footer {
@@ -88,5 +91,16 @@ iframe {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+}
+
+a {
+  color: #20acd6;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=index.css.map */

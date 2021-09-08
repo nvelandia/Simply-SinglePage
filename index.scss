@@ -1,3 +1,8 @@
-@import "danielStyles.scss";
-@import "diegoStyles.scss";
-@import "lizStyles.scss";
+@import "./danielStyles";
+@import "./diegoStyles";
+@import "./lizStyles";
+
+body {
+  margin: 0;
+  padding: 0;
+}
