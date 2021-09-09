@@ -85,18 +85,18 @@ iframe {
   padding: 50px 22%;
 }
 
+a {
+  color: #20acd6;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  /* margin-left: 100px;
-  margin-right: 100px; */
-}
-
-a {
-  color: #20acd6;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 80px 22%;
 }
 
 body {
