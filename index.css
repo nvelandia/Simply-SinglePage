@@ -108,11 +108,21 @@ nav ul {
   gap: 30px;
 }
 
+.btt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .btt button {
+  font-size: 10px;
   border: none;
   padding: 5px 10px;
-  border-radius: 8px;
-  background-color: aqua;
+  border-radius: 20px;
+  background-color: #263535;
 }
 
 h2 {

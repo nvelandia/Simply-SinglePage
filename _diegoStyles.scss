@@ -48,10 +48,13 @@ nav ul {
   gap: 30px;
 }
 .btt {
+  display: flex;
+  justify-content: center;
   button {
+    font-size: 10px;
     border: none;
     padding: 5px 10px;
-    border-radius: 8px;
-    background-color: aqua;
+    border-radius: 20px;
+    background-color: rgb(38, 53, 53);
   }
 }
