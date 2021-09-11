@@ -9,7 +9,7 @@ body {
 .hero-image {
   background-image: url("https://static.dw.com/image/50558210_303.jpg");
 
-  height: 400px;
+  height: 500px;
 
   background-position: center;
   background-repeat: no-repeat;
@@ -33,6 +33,7 @@ body {
   }
   p {
     color: white;
+    font-size: 20px;
   }
   .texto-borde {
     -webkit-text-stroke: 1px rgb(243, 239, 239);
