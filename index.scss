@@ -6,3 +6,41 @@ body {
   margin: 0;
   padding: 0;
 }
+.hero-image {
+  background-image: linear-gradient(
+      rgba(92, 75, 187, 0.5),
+      rgba(251, 242, 242, 0.911)
+    ),
+    url("https://www.lavanguardia.com/uploads/2019/04/08/5fa51c43ee9e5.jpeg");
+
+  height: 400px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  color: rgb(19, 18, 18);
+}
+.btt1 {
+  font-size: 20px;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 8px;
+  background-color: rgb(56, 61, 60);
+  width: 180px;
+  color: white;
+}
+button:hover {
+  background-color: rgb(137, 176, 231);
+}
