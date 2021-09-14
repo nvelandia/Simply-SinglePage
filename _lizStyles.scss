@@ -1,18 +1,17 @@
+@import "./variables";
+
 h2 {
-  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   padding: auto;
   font-size: x-large;
 }
 
 hr {
-  font-family: Arial, Helvetica, sans-serif;
   width: 30%;
-  border: 1px solid #68b2ca;
+  border: 1px solid $color-azul;
 }
 
 .texto {
-  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   background: transparent;
   font-size: large;
@@ -29,19 +28,17 @@ iframe {
   padding: 50px 22%;
 }
 
-a {
-  color: rgb(32, 172, 214);
-}
-
 .footer {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   display: flex;
   justify-content: space-between;
   margin: 80px 22%;
+
+  a {
+    color: rgb(32, 172, 214);
+  }
 }
 br {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: #68b2ca;
 }
