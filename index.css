@@ -302,6 +302,23 @@ br {
   color: #68b2ca;
 }
 
+.verticalLine {
+  border-left: solid black;
+  height: 18px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.final {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
 * {
   font-family: "Poppins", sans-serif;
 }
